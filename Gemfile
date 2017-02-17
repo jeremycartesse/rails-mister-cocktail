@@ -40,6 +40,7 @@ gem "simple_form"
 gem "autoprefixer-rails"
 gem 'rails-controller-testing'
 ruby '2.3.3'
+gem 'figaro'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-plugin'
