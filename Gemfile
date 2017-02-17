@@ -41,6 +41,10 @@ gem "autoprefixer-rails"
 gem 'rails-controller-testing'
 ruby '2.3.3'
 gem 'figaro'
+gem 'cloudinary', '1.1.0'
+gem 'carrierwave', '~> 0.11.2'
+gem 'attachinary', github: 'assembler/attachinary'
+gem 'jquery-fileupload-rails'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-plugin'
