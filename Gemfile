@@ -39,6 +39,7 @@ gem "font-awesome-sass"
 gem "simple_form"
 gem "autoprefixer-rails"
 gem 'rails-controller-testing'
+ruby '2.3.3'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-plugin'
