@@ -1,0 +1,14 @@
+
+
+<div class="text-center padded feature">
+  <br>
+  <h2>My list of cocktails</h2>
+  <% @cocktails.each do |cocktail| %>
+     <h2> <%= cocktail.name %></h2>
+     <%= link_to "See details", cocktail_path(cocktail), class: "btn btn-primary"%>
+  <% end %>
+</div>
+
+
+
+
